@@ -1,0 +1,91 @@
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: baseline; 
+    height: 300px; 
+    margin:0; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: cornsilk;
+}
+
+.box {
+    text-align: center; 
+    padding: 10px; 
+    margin: 30px;
+    /*border: 2px solid black;*/
+    border-radius: 0.5cm; 
+    box-shadow: 0 4px 8px;
+    background-image: url(clear.jpeg);
+    background-size: cover;
+    
+  
+}
+.search-box{
+    justify-content: space-evenly;
+    gap: 100px;
+}
+.search-txt{
+    border-radius: 0.1cm;
+    border: 2px solid white
+}
+
+.box h1{
+    color: cornsilk;
+    font-style: bold;
+    border-radius: 0.2cm;
+    /*border: 2px solid black;*/
+    backdrop-filter: blur(5px);
+    font-size: medium;
+}
+.box img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.weather-details div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px; 
+    border-radius: 0.5cm; 
+    color: cornsilk; 
+    margin-bottom: 0px;
+    font-size: medium;
+}
+
+
+
+.bottominfo{
+ border-radius: 0.5cm;   
+ backdrop-filter: blur(7px);
+ padding: 10px;
+ line-height: 0.4;
+}
+
+.bottominfo:hover{
+    backdrop-filter: blur(100px);
+}
+
+.main{
+    text-align: center;
+    border-radius: 0.5cm;
+    justify-content: space-between;
+    color: cornsilk;
+    padding: 0px;
+    
+
+}
+
+.temp{
+    margin-bottom: 0px;
+}
+.city{
+    margin-top: 0px;
+    text-align: left;
+    border-radius: 0cm;
+    
+    display: inline-block;
+}
+
